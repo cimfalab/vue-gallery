@@ -1,6 +1,7 @@
 <template>
     <div>
-        <app-body></app-body>
+        <app-main></app-main>
+        <app-bar></app-bar>
     </div>
 </template>
 
@@ -10,7 +11,8 @@
 
     export default {
         components: {
-            'app-body': Slider, Accordion
+            'app-main': Slider,
+            'app-bar': Accordion
         }
     }
 </script>
