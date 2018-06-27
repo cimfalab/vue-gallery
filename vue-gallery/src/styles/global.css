@@ -47,6 +47,21 @@ img:visited {
     background-color: #dea616;
 }
 
+/*Accordion*/
+#accordion {
+    margin-top: 75px;
+}
+
+.card {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.btn-info {
+    background-image: linear-gradient(to right top, #dea616, #d8bd52, #d7d184, #dce2b4, #ebf0e2);
+    border: none;
+}
+
 .btn-info:hover {
     color: #fff;
     background-color: red;

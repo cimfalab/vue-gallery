@@ -6,10 +6,11 @@
 
 <script>
     import Slider from './components/Slider.vue'
+    import Accordion from './components/Accordion.vue'
 
     export default {
         components: {
-            'app-body': Slider
+            'app-body': Slider, Accordion
         }
     }
 </script>
