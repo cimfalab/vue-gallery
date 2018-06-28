@@ -31,11 +31,8 @@ body {
 }
 
 img {
-    border: 1px solid grey;
-}
-
-img:visited {
-    outline-style: none;
+    border: 1px solid #594f4f;
+    border-radius: 0.10rem;
 }
 
 .carousel-indicators li {
@@ -45,7 +42,7 @@ img:visited {
 }
 
 .carousel-indicators .active {
-    background-color: #dab640;
+    background-color: #45ADA8;
 }
 
 .carousel-caption {
@@ -57,6 +54,7 @@ img:visited {
 }
 
 /*Accordion*/
+
 #accordion {
     margin-top: 75px;
 }
@@ -64,18 +62,37 @@ img:visited {
 .card {
     width: 700px;
     margin: 0 auto;
+    border: none;
+}
+
+.card-header {
+    border: none;
+}
+
+.card-text {
+    text-align: center;
 }
 
 .btn-info {
-    font-weight: bold;
-    background-image: linear-gradient(to right top, #dea616, #d8bd52, #d7d184, #dce2b4, #ebf0e2);
+    background-color: #45ADA8;
     border: none;
 }
 
 .btn-info:hover {
-    background-color: #dea616 !important;
+    background-color: #594f4f !important;
 }
 
 .btn-info.focus, .btn-info:focus {
     box-shadow: none !important;
 }
+
+.btn {
+    border-radius: 0.10rem;
+}
+
+
+
+
+
+
+

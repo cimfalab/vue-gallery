@@ -33,13 +33,18 @@
                     <b-container fluid class="p-4 bg-dark">
                         <b-row>
                             <b-col>
-                                <b-img thumbnail fluid src="https://picsum.photos/200/200/?random" alt="Thumbnail"/>
+                                <b-img class="acc1" v-b-tooltip.hover title="Trips" thumbnail fluid
+                                       src="https://images.pexels.com/photos/38537/woodland-road-falling-leaf-natural-38537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                       alt="Thumbnail"/>
                             </b-col>
                             <b-col>
-                                <b-img thumbnail fluid src="https://picsum.photos/g/200/200" alt="Thumbnail"/>
+                                <b-img class="acc2" v-b-tooltip.hover title="Animals" thumbnail fluid
+                                       src="https://images.pexels.com/photos/133459/pexels-photo-133459.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                       alt="Thumbnail"/>
                             </b-col>
                             <b-col>
-                                <b-img thumbnail fluid src="https://picsum.photos/200/200/?gravity=east"
+                                <b-img class="acc3" v-b-tooltip.hover title="Events" thumbnail fluid
+                                       src="https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                        alt="Thumbnail"/>
                             </b-col>
                         </b-row>
