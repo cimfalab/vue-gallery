@@ -1,7 +1,7 @@
 <template>
     <div>
-        <app-main></app-main>
-        <app-bar></app-bar>
+        <app-first-part></app-first-part>
+        <app-second-part></app-second-part>
     </div>
 </template>
 
@@ -9,10 +9,11 @@
     import Slider from './components/Slider.vue'
     import Accordion from './components/Accordion.vue'
 
+
     export default {
         components: {
-            'app-main': Slider,
-            'app-bar': Accordion
+            'app-first-part': Slider,
+            'app-second-part': Accordion,
         }
     }
 </script>

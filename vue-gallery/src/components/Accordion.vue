@@ -30,9 +30,20 @@
             </b-card-header>
             <b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
                 <b-card-body>
-                    <p class="card-text">
-                        {{ acc_desc_three }}
-                    </p>
+                    <b-container fluid class="p-4 bg-dark">
+                        <b-row>
+                            <b-col>
+                                <b-img thumbnail fluid src="https://picsum.photos/200/200/?random" alt="Thumbnail"/>
+                            </b-col>
+                            <b-col>
+                                <b-img thumbnail fluid src="https://picsum.photos/g/200/200" alt="Thumbnail"/>
+                            </b-col>
+                            <b-col>
+                                <b-img thumbnail fluid src="https://picsum.photos/200/200/?gravity=east"
+                                       alt="Thumbnail"/>
+                            </b-col>
+                        </b-row>
+                    </b-container>
                 </b-card-body>
             </b-collapse>
         </b-card>
@@ -47,8 +58,8 @@
                 acc_desc_one: `
        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       `,
-                acc_desc_two: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. ',
-                acc_desc_three: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. '
+                acc_desc_two: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. '
+
             }
         }
     }

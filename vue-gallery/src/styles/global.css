@@ -4,6 +4,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/*Carousel*/
+
 #carousel1 {
     text-shadow: 1px 1px 2px #333;
     width: 700px;
@@ -11,7 +13,6 @@ body {
     margin: 0 auto;
     top: 40px;
     box-shadow: 14px 15px 88px -8px rgba(0, 0, 0, 0.75);
-    background-color: grey;
 }
 
 .carousel-control-prev-icon {
@@ -38,13 +39,21 @@ img:visited {
 }
 
 .carousel-indicators li {
-    background-color: #DFDBDB;
+    background-color: #ddcccc;
     width: 30px;
     height: 2px;
 }
 
 .carousel-indicators .active {
-    background-color: #dea616;
+    background-color: #dab640;
+}
+
+.carousel-caption {
+    bottom: 100px;
+}
+
+.bg-dark {
+    background-color: #ffffff !important;
 }
 
 /*Accordion*/
@@ -58,12 +67,15 @@ img:visited {
 }
 
 .btn-info {
+    font-weight: bold;
     background-image: linear-gradient(to right top, #dea616, #d8bd52, #d7d184, #dce2b4, #ebf0e2);
     border: none;
 }
 
 .btn-info:hover {
-    color: #fff;
-    background-color: red;
-    border: none;
+    background-color: #dea616 !important;
+}
+
+.btn-info.focus, .btn-info:focus {
+    box-shadow: none !important;
 }
