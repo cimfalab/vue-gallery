@@ -3,7 +3,17 @@
         <div class="container">
             <form class="form-uploader" enctype="multipart/form-data" novalidate v-if="isInitial || isSaving">
                 <hr>
-                <h4 class="title">It's time to create your own gallery</h4>
+                <div class="gallery-animation" >
+                    <ul>
+                        <li>It's</li>
+                        <li>time</li>
+                        <li>to</li>
+                        <li>create</li>
+                        <li>your</li>
+                        <li>own</li>
+                        <li>gallery</li>
+                    </ul>
+                </div>
                 <p class="upload-info">Upload images</p>
                 <div class="dropbox">
                     <input type="file" multiple :name="uploadFieldName" :disabled="isSaving"
