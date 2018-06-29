@@ -51,8 +51,8 @@
 </template>
 
 <script>
-    import {upload} from '../file-upload.fake.service';
-    import {wait} from '../utils';
+    import {upload} from '../uploader-backend/file-upload.fake.service';
+    import {wait} from '../uploader-backend/utils';
 
     const STATUS_INITIAL = 0, STATUS_SAVING = 1, STATUS_SUCCESS = 2, STATUS_FAILED = 3;
     export default {
