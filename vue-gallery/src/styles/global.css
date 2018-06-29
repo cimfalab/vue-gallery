@@ -12,6 +12,7 @@ body {
     height: 460px;
     margin: 0 auto;
     top: 40px;
+    -webkit-box-shadow: 14px 15px 88px -8px rgba(0, 0, 0, 0.75);
     box-shadow: 14px 15px 88px -8px rgba(0, 0, 0, 0.75);
 }
 
@@ -83,6 +84,7 @@ img {
 }
 
 .btn-info.focus, .btn-info:focus {
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
 
@@ -181,12 +183,16 @@ hr {
 .gallery-animation {
     lefT: 50%;
     margin-top: 65px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .gallery-animation ul {
     margin: 0;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
@@ -202,42 +208,68 @@ hr {
 }
 
 .gallery-animation ul:hover li {
+    -webkit-animation: gallery-animation 2s linear forwards;
     animation: gallery-animation 2s linear forwards;
+}
+
+@-webkit-keyframes gallery-animation {
+    0% {
+        -webkit-transform: rotate(0deg) translateY(0px);
+        transform: rotate(0deg) translateY(0px);
+        opacity: 1;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+    }
+    100% {
+        -webkit-transform: rotate(45deg) translateY(-200px);
+        transform: rotate(45deg) translateY(-200px);
+        opacity: 0;
+        -webkit-filter: blur(20px);
+        filter: blur(20px);
+    }
 }
 
 @keyframes gallery-animation {
     0% {
+        -webkit-transform: rotate(0deg) translateY(0px);
         transform: rotate(0deg) translateY(0px);
         opacity: 1;
+        -webkit-filter: blur(1px);
         filter: blur(1px);
     }
     100% {
+        -webkit-transform: rotate(45deg) translateY(-200px);
         transform: rotate(45deg) translateY(-200px);
         opacity: 0;
+        -webkit-filter: blur(20px);
         filter: blur(20px);
     }
 }
 
 .gallery-animation ul li:nth-child(1) {
+    -webkit-animation-delay: 0s;
     animation-delay: 0s
 }
 
 .gallery-animation ul li:nth-child(2) {
+    -webkit-animation-delay: .4s;
     animation-delay: .4s
 }
 
 .gallery-animation ul li:nth-child(3) {
+    -webkit-animation-delay: .8s;
     animation-delay: .8s
 }
 
 .gallery-animation ul li:nth-child(4) {
+    -webkit-animation-delay: 1.2s;
     animation-delay: 1.2s
 }
 
 .gallery-animation ul li:nth-child(5) {
+    -webkit-animation-delay: 1.6s;
     animation-delay: 1.6s
 }
-
 
 
 
