@@ -1,3 +1,5 @@
+import
+
 <template>
     <div>
         <b-carousel id="carousel1"
