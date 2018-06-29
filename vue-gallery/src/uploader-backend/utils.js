@@ -5,4 +5,4 @@ function wait(ms) {
     };
 }
 
-export { wait }
+export {wait}

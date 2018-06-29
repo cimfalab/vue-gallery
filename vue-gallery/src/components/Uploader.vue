@@ -3,7 +3,7 @@
         <div class="container">
             <form class="form-uploader" enctype="multipart/form-data" novalidate v-if="isInitial || isSaving">
                 <hr>
-                <div class="gallery-animation" >
+                <div class="gallery-animation">
                     <ul>
                         <li>It's</li>
                         <li>time</li>
@@ -33,7 +33,7 @@
                 <p class="upload-again">
                     <a href="javascript:void(0)" @click="reset()">Upload again</a>
                 </p>
-                <ul class="list-unstyled">
+                <ul class="list-imgs">
                     <li v-for="item in uploadedFiles">
                         <img :src="item.url" class="img-responsive img-thumbnail" :alt="item.originalName">
                     </li>

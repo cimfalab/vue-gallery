@@ -35,4 +35,4 @@ function getBase64Image(img) {
     return dataURL;
 }
 
-export { upload }
+export {upload}

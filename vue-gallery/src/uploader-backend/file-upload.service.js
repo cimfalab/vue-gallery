@@ -9,7 +9,7 @@ function upload(formData) {
         .then(x => x.data)
         // add url field
         .then(x => x.map(img => Object.assign({},
-            img, { url: `${BASE_URL}/images/${img.id}` })));
+            img, {url: `${BASE_URL}/images/${img.id}`})));
 }
 
-export { upload }
+export {upload}
